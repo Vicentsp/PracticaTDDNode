@@ -1,0 +1,10 @@
+{
+  "name": "practica-tdd-node",
+  "version": "1.0.0",
+  "description": "Practica de TDD con Fibonacci, validacion de PIN y GitHub Actions",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "private": true
+}
