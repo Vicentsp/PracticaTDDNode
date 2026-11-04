@@ -4,7 +4,11 @@
   "description": "Practica de TDD con Fibonacci, validacion de PIN y GitHub Actions",
   "type": "module",
   "scripts": {
-    "test": "node --test"
-  },
-  "private": true
+  "test": "vitest run",
+  "test:watch": "vitest"
+},
+  "private": true,
+  "devDependencies": {
+    "vitest": "^5.1.0"
+  }
 }
