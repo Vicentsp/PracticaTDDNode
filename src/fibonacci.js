@@ -11,7 +11,7 @@ export function fibonacci(n) {
     let actual = 1;
 
     for (let i = 2; i <= n; i++) {
-        let siguiente = anterior + actual;
+        const siguiente = anterior + actual;
         anterior = actual;
         actual = siguiente;
     }
